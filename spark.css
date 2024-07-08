@@ -1,0 +1,48 @@
+.cards{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+.card{
+    padding:0 20px;
+    width: 21%;
+    border: 2px solid black;
+    background-color: #fff;
+    cursor: pointer;
+}
+.card img{
+    width: 18rem;
+
+}
+
+.card .image{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 1rem;
+    background: none;
+    height: 18rem;
+}
+.card:hover {
+    transform: scale(1.05); /* Scale to 150% on hover */
+
+}
+.price{
+    text-decoration: line-through ;
+    color: black;
+    margin-left: 0.5rem;
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rates{
+    display: flex;
+
+
+}
+.title h3{
+    color: #0062bd;
+}
